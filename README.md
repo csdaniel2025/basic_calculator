@@ -2,7 +2,7 @@
 <p align="center">
   <img width="445" height="636" alt="Screenshot from 2025-09-21 21-48-34" src="https://github.com/user-attachments/assets/164b627b-1e05-49b4-9677-bebedcb7282d" />
 </p>
-## Installation
+# Installation
 
 **Clone the repository:**
 
