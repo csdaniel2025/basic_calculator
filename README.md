@@ -9,7 +9,7 @@ git clone https://github.com/csdaniel2025/basic_calculator.git
 cs basic_calculator
 ```
 
-Create a virtual environment:
+To create a virtual environment:
 ```
 python3 -m venv vir-e     (Linux)
 py -m venv vir-e          (Windows)
@@ -21,13 +21,13 @@ source vir-e/bin/activate      (Linux)
 .\vir-e\Scripts\activate       (Windows)
 ```
 
-Install customtkinter
+To install customtkinter
 ```
 pip3 install customtkinter     (Linux)
 pip install customtkinter      (Windows)
 ```
 
-Run
+To run
 ```
 python3 basic_calculator.py     (Linux)
 py basic_calculator.py          (Windows)
