@@ -1,4 +1,4 @@
-# Creating a Basic Calculator with Tkinter and Customtkinter
+# Basic Calculator
 
 ## Installation
 
