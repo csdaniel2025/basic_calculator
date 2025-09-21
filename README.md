@@ -14,27 +14,43 @@ Simple basic functional calculator
 git clone https://github.com/csdaniel2025/basic_calculator.git
 cd basic_calculator
 ```
+## Linux/macOS
 
 To create a virtual environment:
 ```
-python3 -m venv vir-e     (Linux)
-py -m venv vir-e          (Windows)
+python3 -m venv vir-e
+```
+To activate a Python virtual environment
+```
+source vir-e/bin/activate
+```
+To install customtkinter
+```
+pip3 install customtkinter
+```
+To run
+```
+python3 basic_calculator.py
+```
+
+## Windows
+
+To create a virtual environment:
+```
+py -m venv vir-e 
 ```
 
 To activate a Python virtual environment
 ```
-source vir-e/bin/activate      (Linux)
-.\vir-e\Scripts\activate       (Windows)
+.\vir-e\Scripts\activate
 ```
 
 To install customtkinter
 ```
-pip3 install customtkinter     (Linux)
-pip install customtkinter      (Windows)
+pip install customtkinter
 ```
 
 To run
 ```
-python3 basic_calculator.py     (Linux)
-py basic_calculator.py          (Windows)
+py basic_calculator.py
 ```
