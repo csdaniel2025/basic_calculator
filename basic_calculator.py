@@ -5,8 +5,9 @@ import customtkinter as ctk
 class Basic_Calculator():
     def __init__(self, display):
         self.display = display
-        self.display.geometry("500x500") 
+        self.display.geometry("450x600") 
         self.display.configure(bg="#333333")
+        self.display.title("Basic Calculator")
         
         self.frame = tk.Frame(self.display, bg="#333333")
         self.frame.pack(expand=True)
@@ -105,14 +106,14 @@ class Basic_Calculator():
         
     def show_widgets(self):
 
-        header = ctk.CTkLabel(self.frame, text="Calculator", font=("Ubuntu", 35))
-        header.grid(row=0, column=0, columnspan=6)
+        # header = ctk.CTkLabel(self.frame, text="Calculator", font=("Ubuntu", 35))
+        # header.grid(row=0, column=0, columnspan=6, pady=20)
         
-        self.screenTop = ctk.CTkLabel(self.frame, text="0", font=("Ubuntu", 25), text_color="black", fg_color="#F5FFFA", width=260, height=40, anchor="e")
-        self.screenTop.grid(row=1, column=0, columnspan=6, pady=5)
+        self.screenTop = ctk.CTkLabel(self.frame, text="0", font=("Ubuntu", 25), text_color="black", fg_color="#F5FFFA", width=260, height=50, anchor="e")
+        self.screenTop.grid(row=1, column=0, columnspan=6, pady=1)
         
         self.screenBot = ctk.CTkLabel(self.frame, text="0", font=("Ubuntu", 25), text_color="black", fg_color="#F5FFFA", width=260, height=40, anchor="e")
-        self.screenBot.grid(row=2, column=0, columnspan=6, pady=5)
+        self.screenBot.grid(row=2, column=0, columnspan=6, pady=(4, 6))
         
         for i in range(len(self.num_pad) - 1):
             num = self.num_pad[i]
