@@ -6,7 +6,7 @@
 
 ```bash
 git clone https://github.com/csdaniel2025/basic_calculator.git
-basic_calculator
+cs basic_calculator
 ```
 
 Create a virtual environment:
