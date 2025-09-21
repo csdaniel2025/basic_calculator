@@ -11,16 +11,14 @@ cs basic_calculator
 
 Create a virtual environment:
 ```
-py -m venv vir-e
+python3 -m venv vir-e     (Linux)
+py -m venv vir-e          (Windows)
 ```
 
-# Linux / macOS
+To activate a Python virtual environment
 ```
-source vir-e/bin/activate
-```
-# Windows
-```
-.\vir-e\Scripts\activate
+source vir-e/bin/activate      (Linux)
+.\vir-e\Scripts\activate       (Windows)
 ```
 
 Install customtkinter
